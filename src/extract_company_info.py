@@ -7,7 +7,7 @@ from tqdm import tqdm
 
 from embeddings import get_text_embedding
 from translation import translate_text
-from utils import cosine_similarity
+from .utils.utils import cosine_similarity
 
 _tag = (
     "body > div.site > div.content > main > div.content__main__body > "
